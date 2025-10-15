@@ -20,7 +20,7 @@ export const TodoItem = ({ todo, onToggle }: TodoItemProps) => {
           className="select-none font-medium text-gray-900"
           data-testid="todo-title"
         >
-          {todo.title} id:{todo.id}
+          {todo.title}
         </label>
       </div>
       <div className="ml-3 flex h-6 items-center">

@@ -22,8 +22,8 @@ export function App() {
   // }
 
   // ! Istnieje błąd z ID Todosow, w bazie danych każdy nowy todo ma ID: todos.length + 1,
-  // Przez to usuwając i tworząc nowe taski niektóre ID mogą się powtarzać (problemy z zaznaczaniem, usuwaniem, key w mapie)
-  // postanowiłem niezmieniać logiki w Api
+  // Powoduje to powtórzenia ID po usunięciu i ponownym dodaniu elementów
+  // postanowiłem nie zmieniać logiki w Api
 
   // pozdrawiam :)
 

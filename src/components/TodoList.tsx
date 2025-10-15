@@ -1,4 +1,4 @@
-import { Todo } from "../api/todoService";
+import { Todo } from "../types";
 import { TodoItem } from "./TodoItem";
 
 type TodoListProps = {

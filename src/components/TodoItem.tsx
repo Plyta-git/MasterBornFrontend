@@ -1,5 +1,5 @@
 import { clsx } from "clsx";
-import { Todo } from "../api/todoService";
+import { Todo } from "../types";
 
 type TodoItemProps = {
   todo: Todo;

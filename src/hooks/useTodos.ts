@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
-  Todo,
   addTodo as addTodoApi,
   deleteTodo as deleteTodoApi,
   getTodos,
   updateTodo as updateTodoApi,
 } from "../api/todoService";
+import { Todo } from "../types";
 
 type UseTodosResult = {
   todos: Todo[];

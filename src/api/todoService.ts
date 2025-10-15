@@ -1,12 +1,5 @@
+import { Todo, TodoUpdate } from "../types";
 import requestTodo from "./request";
-
-export type Todo = {
-  id: number;
-  title: string;
-  completed: boolean;
-};
-
-export type TodoUpdate = Partial<Pick<Todo, "title" | "completed">>;
 
 const TODOS_ENDPOINT = "/todos";
 
